@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="familyfued/img/logo-big-colour.png" alt="Logo" height=100>
+    <img src="familyfeud/img/logo-big-colour.png" alt="Logo" height=100>
   </a>
 
   <h3 align="center">E-Cell MJCET</h3>
