@@ -1,4 +1,23 @@
-# Family-Feud
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="public/assets/Logo/logo-big-colour.png" alt="Logo" height=100>
+  </a>
+
+  <h3 align="center">E-Cell MJCET</h3>
+
+  <p align="center">
+	  This is a official Repo of E-Cell MJCET, fostering innovation and entrepreneurship through events, resources, and mentorship for aspiring entrepreneurs.
+    <br />
+    <br />
+    <a href="https://ecellmjcet.com">View Website</a>
+    ·
+    <a href="https://github.com/E-Cell-MJCET/FamilyFued/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
+    ·
+    <a href="https://github.com/E-Cell-MJCET/FamilyFued/blob/main/.github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
+  </p>
+</div>
+
+# Family-Feud by E-Cell MJCET
 Project for playing family feud on a projector locally
 
 ## Keybindings
@@ -14,10 +33,7 @@ Button | Action
 
 Button | Action
  --- | ---
-5 | Displays 1 cross for wrong answer. **Deprecated** - use **q** instead
-6 | Displays 2 crosses for wrong answer. **Deprecated** - use **q** instead
-7 | Displays 3 crosses for wrong answer. **Deprecated** - use **q** instead
-
+q | Displays cross for wrong answer.
 
 ---
 
@@ -34,8 +50,6 @@ Button | Action
 s | Starts the game
 r | Starts new round
 q | Adds one to the mistake count of the *current selected team*, displays the correct amount of crosses and flips the current selected team when mistake count reaches 3
-i | Pointssteal - adds points of the opposite team to the *current selected team*. **Deprecated** - when a team quesses correctly after the opposite team makes 3 mistakes, this is automatically applied. 
-0 | Doesn't allow adding score this round. Use when all teams have exhausted all their options and you need to reveal the correct answers. **Deprecated** - when a team makes 3 mistakes and the other team also gives a wrong answer, this is automatically applied.
 
 ---
 
