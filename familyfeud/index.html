@@ -1,52 +1,71 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
-    <title>Rooside Sõda</title>
+    <title>E-Cell MJCET</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
     <style>
-        @font-face {
-          font-family: 'Bebas Neue';
-          src: url('fonts/BebasNeue.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-        }
+      @font-face {
+        font-family: "Bebas Neue";
+        src: url("fonts/BebasNeue.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+      }
     </style>
     <script src="Scripts/lodash.min.js"></script>
     <script src="app.js"></script>
     <!-- <script src="questions.js"></script> -->
-</head>
-<body>
+  </head>
+  <body>
     <div id="mang">
-        <div style="display=none">.</div>
-        <audio class="aud hidden" id="theme" src="audio/ff-theme.mp3"></audio>
+      <audio class="aud hidden" id="theme" src="audio/ff-theme.mp3"></audio>
 
-        <div id="vastused">
-            
-            <!--<canvas class="vastus" id="c1" height="1080" width="1920"></canvas>
+      <div id="vastused">
+        <!--<canvas class="vastus" id="c1" height="1080" width="1920"></canvas>
             <canvas class="vastus" id="c2" height="1080" width="1920"></canvas>
             <canvas class="vastus" id="c3" height="1080" width="1920"></canvas>
             <canvas class="vastus" id="c4" height="1080" width="1920"></canvas>-->
-      
-            <video class="vid anim hidden" id="anim1" src="vidaud/1.webm"></video>
-            <video class="vid anim hidden" id="anim2" src="vidaud/2.webm"></video>
-            <video class="vid anim hidden" id="anim3" src="vidaud/3.webm"></video>
-            <video class="vid anim hidden" id="anim4" src="vidaud/4.webm"></video>
-            
 
-            <video class="vid cross hidden" id="cross1" src="vidaud/cross1.webm"></video>
-            <video class="vid cross hidden" id="cross2" src="vidaud/cross2.webm"></video>
-            <video class="vid cross hidden" id="cross3" src="vidaud/cross3.webm"></video>
-            <video class="vid cross hidden" id="reset" src="video/reset.webm"></video>
-            <video class="vid cross hidden" id="beginning" src="video/beginning.webm"></video>
-            <video class="vid cross hidden" id="ending" src="video/ending.webm"></video>
-            <div>
-                <img id="logo" style="width: 50%" src="./img/Rooside_logo.png" alt="Rooside logo" />
-            </div>
-            <canvas id="vastus" height="1080" width="1920"></canvas>
+        <video class="vid anim hidden" id="anim1" src="vidaud/1.webm"></video>
+        <video class="vid anim hidden" id="anim2" src="vidaud/2.webm"></video>
+        <video class="vid anim hidden" id="anim3" src="vidaud/3.webm"></video>
+        <video class="vid anim hidden" id="anim4" src="vidaud/4.webm"></video>
 
-
+        <video
+          class="vid cross hidden"
+          id="cross1"
+          src="vidaud/cross1.webm"
+        ></video>
+        <video
+          class="vid cross hidden"
+          id="cross2"
+          src="vidaud/cross2.webm"
+        ></video>
+        <video
+          class="vid cross hidden"
+          id="cross3"
+          src="vidaud/cross3.webm"
+        ></video>
+        <video
+          class="vid cross hidden"
+          id="reset"
+          src="video/reset.webm"
+        ></video>
+        <video
+          class="vid cross hidden"
+          id="beginning"
+          src="video/beginning.webm"
+        ></video>
+        <video
+          class="vid cross hidden"
+          id="ending"
+          src="video/ending.webm"
+        ></video>
+        <div id="main">
+          <img id="ecell-logo" src="./img/logo-big-white.png" />
+          <h1 id="presents">Presents</h1>
+          <img id="logo" src="./img/Rooside_logo.png" alt="Rooside logo" />
         </div>
-  
+        <canvas id="vastus" height="1080" width="1920"></canvas>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -1,66 +1,79 @@
 ﻿body {
-    font-family: 'Bebas Neue', sans-serif;
-    background-image:url("img/Background.png");
-    color: cadetblue;
+  font-family: "Bebas Neue", sans-serif;
+  background-image: url("img/Background.png");
+  color: cadetblue;
 }
-
-
-
 
 .vid {
-    position: absolute;
-    left: 0;
-    top: 0;
-    float:left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
 }
 .hidden {
-     display: none;
+  display: none;
 }
 .cross {
-    z-index: 10;
+  z-index: 10;
 }
 #vastus {
-    font-size:20em;
-    position: absolute;
-    left: 0;
-    top: 0;
-    float:left;
-    z-index: 5;
+  font-size: 20em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+  z-index: 5;
 }
 #anim1 {
-    z-index: 0;
+  z-index: 0;
 }
 
 #anim2 {
-    z-index: 1;
+  z-index: 1;
 }
 #anim3 {
-    z-index: 2;
+  z-index: 2;
 }
 #anim4 {
-    z-index: 3;
+  z-index: 3;
 }
 
 #vastused {
-    position: relative;
+  position: relative;
 }
 
-#vastused div{
-    display: flex;
+#ecell-logo {
+  height: 200px;
+}
+
+#presents {
+  color: #fff;
+  font-size: 130px;
+}
+#main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#vastused div {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 #logo {
-    animation: logo-animation 15s infinite;
-    transform: translateY(40px);
-    transform: translateX(10px);
+  animation: logo-animation 15s infinite;
+  transform: translateY(40px);
+  transform: translateX(10px);
 }
 
 @keyframes logo-animation {
-
   50% {
     transform: translateY(-20px);
     transform: translateX(20px);
-    transform: scale(1.08)
+    transform: scale(1.08);
   }
 }
